@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Pa55word2022"
+      MSSQL_PID: Express 
+    ports:
+      - "1433:1433"
+
+  disneyapi:    
+    build: 
+      context: .
+      dockerfile: DisneyAPI/Dockerfile
+    environment:
+      - DB_HOST=ms-sql-server
+      - DB_NAME=DisneyDb
+      - DB_SA_PASSWORD=Pa55word2022
+      - ASPNETCORE_URLS=https://+;http://+ 
+      - ASPNETCORE_HTTPS_PORT=8081
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ${APPDATA}\microsoft\UserSecrets\:/root/.microsoft/usersecrets
+      - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/ 
+    ports:
+      - "8080:80"
+      - "8081:443"
+    depends_on:
+      - ms-sql-server
