@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\myProjects\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj": {}
+    "E:\\TrackedProyects\\DisneyAPI\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj": {}
   },
   "projects": {
-    "E:\\myProjects\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj": {
+    "E:\\TrackedProyects\\DisneyAPI\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\myProjects\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj",
+        "projectUniqueName": "E:\\TrackedProyects\\DisneyAPI\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj",
         "projectName": "DisneyAPI",
-        "projectPath": "E:\\myProjects\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj",
+        "projectPath": "E:\\TrackedProyects\\DisneyAPI\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj",
         "packagesPath": "C:\\Users\\Jhonatan\\.nuget\\packages\\",
-        "outputPath": "E:\\myProjects\\DisneyAPISolution\\DisneyAPI\\obj\\",
+        "outputPath": "E:\\TrackedProyects\\DisneyAPI\\DisneyAPISolution\\DisneyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jhonatan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ci8B8aJ42+CiIg53FrFPi2QmyDtvkVuzilym82Stkd14gf8gVRONudzWrhibUe6vAelfUin14DsLkkXCModRXQ==",
+  "dgSpecHash": "bLqlnoZKi8boN+0+kMKndrLZlYAngGhzqrwH7Mn6ztR5kESBlb+nPN0XNdnISY3/qrXahPzmJtDITiBG16O2oQ==",
   "success": true,
-  "projectFilePath": "E:\\myProjects\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj",
+  "projectFilePath": "E:\\TrackedProyects\\DisneyAPI\\DisneyAPISolution\\DisneyAPI\\DisneyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jhonatan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Jhonatan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

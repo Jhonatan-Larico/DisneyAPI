@@ -37,8 +37,8 @@ var connectionString = $"Server={dbHost};Initial Catalog={dbName};User ID=sa;Pas
 //Integrated Security=True ;Encrypt=False
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));   
-    options.UseSqlServer(connectionString);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));   
+    //options.UseSqlServer(connectionString);
 
 });
 

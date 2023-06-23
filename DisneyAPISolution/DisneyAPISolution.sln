@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyAPI", "DisneyAPI\DisneyAPI.csproj", "{235FCFD8-9FC9-4E60-B930-DEB95C5DA39F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisneyAPI", "DisneyAPI\DisneyAPI.csproj", "{235FCFD8-9FC9-4E60-B930-DEB95C5DA39F}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{122AC414-3783-46BE-B4EA-1C4F68D8B5E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1918DDAC-527F-4476-9B45-4A2C17F4EE29}"
+	ProjectSection(SolutionItems) = preProject
+		captain-definition = captain-definition
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
